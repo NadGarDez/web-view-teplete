@@ -35,7 +35,7 @@ export default class Ini extends Component{
 			<View style={{width:'100%',height:'100%',padding:0,margin:0}}>
 				<WebView source={{ uri: this.state.secciones[this.state.view].src }} style={{ marginTop: 20, width:'100%',height:'90%' }} />
 
-				<View style={{ width:'100%',height:'10%',backgroundColor:'white',display:'flex',justifyContent:'center',flexDirection:'row'}}>
+				<View style={{ width:'100%',height:'10%',backgroundColor:'rgba(52, 52, 52, alpha)',display:'flex',justifyContent:'center',flexDirection:'row'}}>
 
 					<TouchableOpacity  style={{width:'33%',height:'100%'}}
 						onPress={
@@ -50,9 +50,13 @@ export default class Ini extends Component{
 						}
 
 					>
-                      <View style={{display:'flex',justifyContent:'center',alignItems:'center', width:'100%', color:'white',height:'100%',borderStyle:'solid',borderColor:'white',borderWidth:3,backgroundColor:'black'}}>
+                      <View style={{display:'flex',justifyContent:'center',alignItems:'center', width:'100%', color:'white',height:'100%',opacity:1}}>
 
-                      	<Text style ={{color:'white'}}>Boton1</Text>
+                      	<Image source={require('./assets/accueil.png')} style={{width:50,height:50}}>
+
+                      
+                       
+                      	</Image>
                        
                       </View>
                     </TouchableOpacity>
@@ -71,8 +75,12 @@ export default class Ini extends Component{
 
                     >
 
-                    	<View style={{ display:'flex',justifyContent:'center',alignItems:'center',width:'100%',color:'white',backgroundColor:'black',height:'100%',borderStyle:'solid',borderColor:'white',borderWidth:3,backgroundColor:'black'}}>
-                       		<Text style ={{color:'white'}}>Boton2</Text>
+                    	<View style={{ display:'flex',justifyContent:'center',alignItems:'center',width:'100%',height:'100%',color:'white',backgroundColor:'white'}}>
+                       		<Image source={require('./assets/adherer.png')} style={{width:50,height:50}}>
+
+                      
+                       
+                      		</Image>
                       	</View>
                      
                     </TouchableOpacity>
@@ -91,8 +99,12 @@ export default class Ini extends Component{
 
                     >
 
-                    	<View style={{ display:'flex',justifyContent:'center',alignItems:'center',width:'100%',color:'white',height:'100%',borderStyle:'solid',borderColor:'white',borderWidth:3,backgroundColor:'black'}}>
-                       		<Text style ={{color:'white'}}>Boton3</Text>
+                    	<View style={{ display:'flex',justifyContent:'center',alignItems:'center',width:'100%',color:'white',height:'100%',backgroundColor:'white'}}>
+                       		<Image source={require('./assets/Contact.png')} style={{width:50,height:50}}>
+
+                      
+                       
+                      		</Image>
                       	</View>
                      
                     </TouchableOpacity>

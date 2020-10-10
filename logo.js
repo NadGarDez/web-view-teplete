@@ -29,8 +29,6 @@ export default class Logo extends Component{
 
 	render(){
 
-		
-
 
 		return(
 
