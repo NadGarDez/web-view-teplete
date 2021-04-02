@@ -2,7 +2,7 @@
   "expo": {
     "name": "Visitez l'ltalie",
     "slug": "webViewIOS",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -20,8 +20,9 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.ccinice.visitezlltalie",
       "infoPlist":{
-         "NSCameraUsageDescription":"Utilisez l'appareil photo pour télécharger facilement vos images",
-         "NSLocationWhenInUseUsageDescription":"Nous utilisons l'accès à votre emplacement pour faciliter la saisie d'adresse"
+         "NSPhotoLibraryUsageDescription": "Nous utilisons les images que vous allez télécharger depuis votre galerie pour publier vos annonces",
+        "NSCameraUsageDescription": "Nous utilisons les images que vous téléchargerez depuis votre appareil photo pour publier vos annonces.",
+        "NSLocationWhenInUseUsageDescription": "Nous utilisons votre emplacement pour vous montrer les activités qui sont proches de vous"
       }
     },
     "web": {
