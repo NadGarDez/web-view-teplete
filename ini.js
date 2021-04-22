@@ -15,12 +15,12 @@ export default class Ini extends Component{
 		this.state={
 			webv:"hidden",
 			view:'ini',
-			e:true,
+			error:false,
 			'secciones':{
-				'ini':{src:"https:\//www.visitezitalie.fr/"},
-				'boton1':{src:'https:\//www.visitezitalie.fr/'},
-				'boton2':{src:'https:\//www.visitezitalie.fr/add-listing/'},
-				'boton3':{src:'https:\//www.visitezitalie.fr/contact/'},
+				'ini':{src:"https:\//www.guidacostazzurra.fr/"},
+				'boton1':{src:'https:\//www.guidacostazzurra.fr/'},
+				'boton2':{src:'https:\//www.guidacostazzurra.fr/add-listing/'},
+				'boton3':{src:'https:\//www.guidacostazzurra.fr/contact/'},
 
 
 			}

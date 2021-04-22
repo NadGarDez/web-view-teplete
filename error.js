@@ -30,7 +30,7 @@ export default class Ini extends Component{
         </Text>
         <Button
           title="Recargar"
-          color="red"
+          color="#00ffffdb"
           onPress={
             ()=>{
               this.props.recargar()

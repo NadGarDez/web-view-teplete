@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Visitez l'ltalie",
+    "name": "Costazzurra",
     "slug": "webViewIOS",
-    "version": "1.0.3",
+    "version": "1.6",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,7 +18,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ccinice.visitezlltalie",
+      "bundleIdentifier": "com.ccinice.appcostazurra",
       "infoPlist": {
         "NSPhotoLibraryUsageDescription": "Nous utilisons les images que vous allez télécharger depuis votre galerie pour publier vos annonces",
         "NSCameraUsageDescription": "Nous utilisons les images que vous téléchargerez depuis votre appareil photo pour publier vos annonces.",
@@ -28,6 +28,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": ""
+    "description": "",
+    "android": {
+      "package": "com.ccinice.costazurra"
+    }
   }
 }

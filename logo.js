@@ -1,4 +1,4 @@
-import React, { Component } from 'react'; 
+import React, { Component } from 'react';
 import {StyleSheet, AppRegistry, ScrollView, Image, Text,Alert,View,ActivityIndicator} from 'react-native';
 
 export default class Logo extends Component{
@@ -12,7 +12,7 @@ export default class Logo extends Component{
 
 	componentDidMount(){
 
-		
+
 
 		setTimeout(
 			()=>{
@@ -34,7 +34,7 @@ export default class Logo extends Component{
 
 			<View  style={{width:'100%',height:'100%', display:'flex',justifyContent:'center',alignItems:'center'}}>
 
-				<Image style={{width:'50%',height:'25%',marginBottom:20}} source={require('./assets/icon.png')}></Image>
+				<Image style={{width:'50%',height:'25%',marginBottom:20}} source={require('./assets/ic.png')}></Image>
 				<ActivityIndicator size='large' color='#0000ff'/>
 			</View>
 		)
