@@ -2,7 +2,7 @@
   "expo": {
     "name": "Costazzurra",
     "slug": "webViewIOS",
-    "version": "1.6",
+    "version": "1.8",
     "orientation": "portrait",
     "icon": "./assets/ic.png",
     "splash": {
@@ -18,11 +18,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ccinice.appcostazurra",
+      "bundleIdentifier": "com.ccinice.appcostazzurra",
       "infoPlist": {
         "NSPhotoLibraryUsageDescription": "Nous utilisons les images que vous allez télécharger depuis votre galerie pour publier vos annonces",
         "NSCameraUsageDescription": "Nous utilisons les images que vous téléchargerez depuis votre appareil photo pour publier vos annonces.",
-        "NSLocationWhenInUseUsageDescription": "Nous utilisons votre emplacement pour vous montrer les activités qui sont proches de vous"
+        "NSLocationWhenInUseUsageDescription": "Nous utilisons votre emplacement pour vous montrer les activités qui sont proches de vous",
+	"NSMicrophoneUsageDescription":"In questa versione abbiamo migliorato l'interfaccia grafica in modo da renderla più piacevole ed intuitiva per l'utente"
       }
     },
     "web": {
@@ -30,7 +31,7 @@
     },
     "description": "",
     "android": {
-      "package": "com.ccinice.costazurra"
+      "package": "com.modulo4"
     }
   }
 }
